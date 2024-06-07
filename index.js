@@ -3,8 +3,8 @@ const btnLike2 = document.getElementById("btnLike2")
 const countLikes1 = document.getElementById("countLikes1")
 const countLikes2 = document.getElementById("countLikes2")
 
-const btndisLike1 = document.getElementById("btndisLike1")
-const btndisLike2 = document.getElementById("btndisLike2")
+const btndisLike1 = document.getElementById("btnDisLike1")
+const btndisLike2 = document.getElementById("btnDisLike2")
 const countdisLikes1 = document.getElementById("countdisLikes1")
 const countdisLikes2 = document.getElementById("countdisLikes2")
 
