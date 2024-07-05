@@ -69,12 +69,12 @@ function addOrder(){
         sum += parseFloat(qty6.value) * parseFloat(price6.textContent);
     }
 
-    total.textContent = "Total: Php " + sum.toFixed(2);
+    total.value = "Total: Php " + sum.toFixed(2);
     
     if (parseFloat(cash.value) > 0) {
         var cashTendered = parseFloat(cash.value);
         var changeAmount = cashTendered - sum;
-        change.textContent = "Change: Php " + changeAmount.toFixed(2);
+        change.value = "Change: Php " + changeAmount.toFixed(2);
     }
     
 }
